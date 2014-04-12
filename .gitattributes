@@ -1,0 +1,12 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-sjo.pc.in -text
+/apertium-sjo.sjo.lexc -text
+/apertium-sjo.sjo.rlx -text
+/configure.ac -text
+/modes.xml -text
