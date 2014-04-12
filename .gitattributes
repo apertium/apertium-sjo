@@ -8,5 +8,7 @@
 /apertium-sjo.pc.in -text
 /apertium-sjo.sjo.lexc -text
 /apertium-sjo.sjo.rlx -text
+/apertium-sjo.sjo.twol -text
+/autogen.sh -text
 /configure.ac -text
 /modes.xml -text

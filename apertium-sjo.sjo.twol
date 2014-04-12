@@ -1,0 +1,15 @@
+
+Alphabet
+
+  ᡝ ᡞ ᡟ ᡠ ᡡ ᡢ ᡣ ᡤ ᡥ ᡦ ᡧ ᡨ ᡩ ᡪ ᡫ ᡬ ᡭ ᡮ ᡯ ᡰ ᡱ ᡲ ᡳ ᡴ ᡵ ᡶ ᡷ 
+
+  %>:0 ;
+
+Sets 
+
+Boundary = %> ;
+
+Rules 
+
+"Remove morpheme boundary"
+%>:0 <=> _ ; 
