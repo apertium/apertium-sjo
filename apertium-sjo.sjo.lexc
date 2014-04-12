@@ -20,8 +20,10 @@ Nouns ;
 
 LEXICON CASES
 
-%+ᡳ%<post%>:%>ᡳ # ;    ! Genitive
-# ;                    ! Nominative
+# ;                     ! Nominative
+%+ᡳ%<post%>:%>ᠨᡳ # ;    ! Genitive
+%+ᡨᡝ%<post%>:%>% ᡨᡝ # ; ! Dative
+%+ᠪᡝ%<post%>:%>% ᠪᡝ # ; ! Accusative
 
 LEXICON N1 
 
