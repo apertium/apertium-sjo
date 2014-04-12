@@ -6,6 +6,10 @@ Multichar_Symbols
 %<v%>                 ! Verb
 %<post%>              ! Postposition
 
+%>                    ! Morpheme boundary
+%+                    ! Word boundary
+%                     ! Space
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
