@@ -18,16 +18,32 @@ Nouns ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CASES
+LEXICON CASES-COMMON
 
 # ;                     ! Nominative
+
+LEXICON CASES-SEPARATE
+
+CASES-COMMON ;
 %+ᡳ%<post%>:%>ᠨᡳ # ;    ! Genitive
 %+ᡨᡝ%<post%>:%>% ᡨᡝ # ; ! Dative
 %+ᠪᡝ%<post%>:%>% ᠪᡝ # ; ! Accusative
 
+LEXICON CASES-ATTACHED
+
+CASES-COMMON ;
+%+ᡳ%<post%>:%>ᠨᡳ # ;    ! Genitive
+%+ᡨᡝ%<post%>:%>% ᡨᡝ # ; ! Dative
+%+ᠪᡝ%<post%>:%>% ᠪᡝ # ; ! Accusative
+
+
 LEXICON N1 
 
-%<n%>: CASES ; 
+%<n%>: CASES-SEPARATE ; 
+
+LEXICON N2
+
+%<n%>: CASES-ATTACHED ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
