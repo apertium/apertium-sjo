@@ -21,19 +21,19 @@ Nouns ;
 LEXICON CASES-COMMON
 
 # ;                     ! Nominative
-%+ᠪᡝ%<post%> %>% ᠪᡝ # ; ! Accusative
+%+ᠪᡝ%<post%>: %>% ᠪᡝ # ; ! Accusative
 
 LEXICON CASES-SEPARATE
 
 CASES-COMMON ;
-%+ᡳ%<post%>:%>ᠨᡳ # ;    ! Genitive
+%+ᡳ%<post%>:%> ᠨᡳ # ;    ! Genitive
 %+ᡨᡝ%<post%>:%>% ᡨᡝ # ; ! Dative
 
 LEXICON CASES-ATTACHED
 
 CASES-COMMON ;
-%+ᡳ%<post%>%>ᠨᡳ # ;    ! Genitive
-%+ᡨᡝ%<post%>%>% ᡨᡝ # ; ! Dative
+%+ᡳ%<post%>:%>ᠨᡳ # ;    ! Genitive
+%+ᡨᡝ%<post%>:%>%ᡨᡝ # ; ! Dative
 
 
 LEXICON N1 
