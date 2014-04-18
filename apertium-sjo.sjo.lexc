@@ -26,7 +26,7 @@ LEXICON CASES-COMMON
 LEXICON CASES-SEPARATE
 
 CASES-COMMON ;
-%+ᡳ%<post%>:%> ᠨᡳ # ;    ! Genitive
+%+ᡳ%<post%>:%>% ᠨᡳ # ;    ! Genitive
 %+ᡨᡝ%<post%>:%>% ᡨᡝ # ; ! Dative
 
 LEXICON CASES-ATTACHED
