@@ -5,19 +5,33 @@ Multichar_Symbols
 %<n%>                 ! Noun
 %<v%>                 ! Verb
 %<post%>              ! Postposition
+%<prn%>               ! Pronoun
 
 %<sent%>              ! End of sentence marker
 %<cm%>                ! Comma
 
+%<iv%>
+%<tv%>
+%<td%>
+%<neg%>
+%<ger1%>
+%<ger2%>
+%<ger3%>
+
 %>                    ! Morpheme boundary
 %+                    ! Word boundary
 %                     ! Space
+
+%{H%}
+%{A%}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
 Nouns ; 
+Verbs ;
+Pronouns ;
 Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -47,12 +61,67 @@ LEXICON N2
 
 %<n%>: CASES-ATTACHED ;
 
+
+LEXICON V-NEG
+
+%<neg%>:ᡣᡡ # ;
+# ;
+
+LEXICON V-INFL
+
+%<ger1%>:ᡫᡞ # ;
+%<ger2%>:%{H%}%{A%} V-NEG ;
+%<ger3%>:ᠮᡝ # ;
+
+LEXICON CAUS
+
+%<caus%>:ᠪᡠ V-INFL ;
+V-INFL ;
+
+LEXICON V-IV
+
+%<v%>%<iv%>: CAUS ;
+
+LEXICON V-TV
+
+%<v%>%<tv%>: V-INFL ;
+
+LEXICON V-TD
+
+%<v%>%<td%>: CAUS ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON Pronouns
+
+ᠪᡞ:ᠪᡞ # ; ! "I"
+ᡨᡝᡵᡝ:ᡨᡝᡵᡝ CASES-ATTACHED ; ! "that"
+ᡝᡵᡝ:ᡝᡵᡝ CASES-ATTACHED ; ! "this"
+ᡞᠨᡠ:ᡞ%<prn%>%<gen%> # ; ! "his/her"
 
 LEXICON Nouns 
 
 ᠮᠣᠷᡳᠨ:ᠮᠣᠷᡳᠨ N1 ; ! "horse"
 ᠰᡝᡪᡝᠨ:ᠰᡝᡪᡝᠨ N1 ; ! "cart"
+ᠴᠣᠣᡥᠠ:ᠴᠣᠣᡥᠠ N2 ; ! "army, soldier"
+ᡥᠠᡫᠠᠨ:ᡥᠠᡫᠠᠨ N1 ; ! ?
+ᡬᡞᠰᠣᠨ:ᡬᡞᠰᡠᠨ N1 ; ! ?
+ᡨᠣᡣᠰᠣ:ᡨᠣᡣᠰᠣ N1 ; ! ?
+
+LEXICON Verbs
+
+ᠪᠠ᠇ᡞ:ᠪᠠ᠇ᡞ V-IV ; ! "be"
+ᡨᡠᠴᡞ:ᡥᠠᡫᠠᠨ V-TD ; ! ?
+ᡪᡞ:ᡪᡞ V-TD ; ! ?
+ᠠᠯᠠ:ᠠᠯᠠ V-TD ; ! ?
+ᡝᡫᡠᡪᡝ:ᡝᡫᡠᡪᡝ V-TD ; ! ?
+ᠪᡠᠴᡝ:ᠪᡠᠴᡝ V-TD ; ! ?
+ᡫᠣᠨᡪᡞ:ᡫᠣᠨᡪᡞ V-TD ; ! ?
+ᠰᡞᡨᠠ:ᠰᡞᡨᠠ V-TD ; ! ?
+ᡠᡩᠠ:ᡠᡩᠠ V-TD ; ! ?
+ᡫᡠᠨᠴᡝ:ᡫᡠᠨᠴᡝ V-TD ; ! ?
+ᡫᡝᡣᠰᡞ:ᡫᡝᡣᠰᡞ V-TD ; ! ?
 
 LEXICON Punctuation
 
