@@ -11,6 +11,9 @@
 /apertium-sjo.sjo.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/transliterate/Makefile -text
+dev/transliterate/lat-sjo.twol -text
+dev/transliterate/test-compose-intersect.sh -text
 /modes.xml -text
 /testing -text
 texts/buchehe[!!-~]morin.txt -text svneol=unset#application/octet-stream
