@@ -13,6 +13,7 @@
 /configure.ac -text
 dev/transliterate/Makefile -text
 dev/transliterate/lat-sjo.twol -text
+dev/transliterate/paternoster.txt -text svneol=unset#application/octet-stream
 dev/transliterate/test-compose-intersect.sh -text
 /modes.xml -text
 /testing -text

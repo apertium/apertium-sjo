@@ -1,11 +1,11 @@
 
 Alphabet 
 
- ᠠ ᠪ ᠨ ᡣ ᡬ ᡭ ᠸ ᡫ ᠶ ᡪ ᠯ ᠮ ᡠ ᡡ ᠣ ᡝ ᡞ ᡟ ᡠ ᡡ ᡢ ᡣ ᡤ ᡥ ᡦ ᡧ ᡨ ᡩ ᡪ ᡫ ᡬ ᡭ ᡮ ᡯ ᡰ ᡱ ᡲ ᡳ ᡴ ᡵ ᡶ ᡷ
+ ᠠ ᠪ ᠨ ᡣ ᡬ ᡭ ᠸ ᡫ ᠶ ᡪ ᠯ ᠮ ᡠ ᡡ ᠣ ᡝ ᡞ ᡟ ᡠ ᡡ ᡢ ᡣ ᡤ ᡥ ᡦ ᡧ ᡨ ᡩ ᡪ ᡫ ᡬ ᡭ ᡮ ᡯ ᡰ ᠴ ᡱ ᡲ ᡳ ᡴ ᡵ ᡶ ᡷ
  
  a:ᠠ
  b:ᠪ
- c:ᡱ
+ c:ᠴ
  d:ᡩ
  e:ᡝ
  f:ᡫ
@@ -17,7 +17,7 @@ Alphabet
  l:ᠯ
  m:ᠮ
  n:ᠨ
- ng:ᡢ
+! ng:ᡢ  ! probably undefined behaviour?  let's do this with some rules
  o:ᠣ
  p:ᡦ
  r:ᡵ
@@ -48,3 +48,8 @@ Vx:Vy <=> _ BackVow: ;
           Vy in ( ᡬ ᡭ ᡣ )
       matched ;
 
+"n of ng sequence"
+n:ᡢ <=> _ g: ;
+
+"g of ng sequence"
+g:0 <=> n:ᡢ _ ;
