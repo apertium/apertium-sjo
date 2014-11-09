@@ -135,6 +135,11 @@ LEXICON Pronouns
 
 ᠪᡞ%<prn%>%<pers%>%<nom%>:ᠪᡞ # ; ! "I"
 ᠪᡞ%<prn%>%<pers%>%<gen%>:ᠮᡞᠨᡞ  # ; ! "my"
+ᠪᡝ%<prn%>%<pers%>%<nom%>:ᠪᡝ # ; ! "we"
+ᠪᡝ%<prn%>%<pers%>%<nom%>%+ᡳ%<post%>:ᠮᡝᠨᡞ # ; ! "us"
+ᠰᡞ%<prn%>%<pers%>%<nom%>:ᠰᡞ # ; ! "you" (sg)
+ᠰᡞ%<prn%>%<pers%>%<nom%>%+ᡳ%<post%>:ᠰᡞᠨᡞ # ; ! "you" (sg)
+
 ᡨᡝᡵᡝ%<prn%>%<dem%>:ᡨᡝᡵᡝ CASES-ATTACHED ; ! "that"
 ᡝᡵᡝ%<prn%>%<dem%>:ᡝᡵᡝ CASES-ATTACHED ; ! "this"
 ᡞ%<prn%>%<pers%>%<gen%>:ᡞᠨᡠ # ; ! "his/her"
@@ -157,6 +162,10 @@ LEXICON Nouns
 ᡨᡠᠸᠠᡞ% ᠰᡝᡪᡝᠨ:ᡨᡠᠸᠠᡞ% ᠰᡝᡪᡝᠨ N1 ; ! "train"
 ᠰᡠᡣᡩᡠᡪᡝᠨ:ᠰᡠᡣᡩᡠᡪᡝᠨ N1 ; ! "car"
 ᡪᡠᡢᡣᡝᠨ:ᡪᡠᡢᡣᡝᠨ N1 ; ! "clock, bell"
+ᠠᠪᡣᠠ:ᠠᠪᡣᠠ N1 ; ! "heaven"
+ᠠᠮᠠ:ᠠᠮᠠ N1 ; ! "father"
+ᡤᡠᡵᡠᠨ:ᡤᡠᡵᡠᠨ N1 ; ! "people"
+ᡠᡵᠰᡝ:ᡠᡵᠰᡝ N2 ; ! "people"
 
 LEXICON Adjectives
 
@@ -178,6 +187,8 @@ LEXICON Verbs
 ᡪᡞ:ᡪᡞ V-IV ; ! "come"
 ᡪᡞᠯᡞᡩᠠ:ᡪᡞᠯᡞᡩᠠ V-IV ; ! "get angry"
 ᡩᡠᠯᡝ:ᡩᡠᠯᡝ V-IV ; ! "strike"
+ᠪᡠ:ᠪᡠ V-TV ; ! "give"
+ᠠᡵᠠ:ᠠᡵᠠ V-TV ; ! "make"
 
 ᡨᡠᠴᡞ:ᡥᠠᡫᠠᠨ V-TD ; ! ?
 ᠠᠯᠠ:ᠠᠯᠠ V-TD ; ! ?
