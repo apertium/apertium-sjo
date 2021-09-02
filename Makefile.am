@@ -2,8 +2,6 @@
 ## Makefile for apertium-sjo
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=sjo
 BASENAME=apertium-$(LANG1)
 
@@ -136,7 +134,9 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_sjo_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS)
+apertium_sjo_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) \
+				  $(BASENAME).$(LANG1).lexc $(BASENAME).$(LANG1).twol \
+				  $(BASENAME).$(LANG1).rlx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -144,10 +144,7 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_sjo_srcdir) || mkdir -p $(DESTDIR)$(apertium_sjo_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_sjo_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_sjo_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_sjo_srcdir)
+uninstall-local: uninstall-modes
 
 ###############################################################################
 ## Cleanup
